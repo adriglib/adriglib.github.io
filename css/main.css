@@ -1,0 +1,50 @@
+body {
+    background-color: #336699;
+}
+
+.name {
+    width: 80%; 
+    height:200px; 
+    position: fixed;
+    
+    text-align: center;
+    
+    top: 50%; 
+    left: 50%; 
+    
+    margin-top: -100px; 
+    margin-left: -40%;
+    display: block;
+}
+
+h1, h2 {
+    
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3.2em;
+    font-weight: 700;
+    
+    line-height: 90%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.contact {
+    position: relative;
+    top: 20%;
+    display: block;
+}
+
+.social {
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.social:hover {
+    transform: scale(2, 3);
+}
