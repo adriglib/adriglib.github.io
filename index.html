@@ -13,6 +13,7 @@
     
     <!-- Own CSS -->
     <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/snow.css" type="text/css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
     <!-- My Fonts -->
@@ -24,25 +25,37 @@
 
 <body>
 
+       <div id="snow">
     <main class="container background">
+
+        
     
        <div class="name">
            <h1 class="animated zoomIn">Adriaan Glibert</h1>
             <h2 class="animated zoomIn">Student Webdesign &amp; Development</h2>
             
-           <div class="contact">
-               <a href="www.facebook.com/AdriaanGlibert" class="animated fadeIn facebook social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           <div class="contact animated zoomIn">
+              
+              <div class="circle fbcircle">
+                  <a href="https://www.facebook.com/AdriaanGlibert?lst=1481768009%3A1481768009%3A1486584205" target="_blank" class="facebook social grow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </div>
                
-               <a href="www.twitter.com/GlibertAdriaan" class="animated fadeIn facebook social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                
-               <a href="mailto:adriaanglibert@hotmail.com?Subject=Website:%20" target="_top" class="facebook social"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+               <div class="circle twittercircle">
+               <a href="https://twitter.com/GlibertAdriaan" target="_blank" class="twitter social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+               </div>
+                              
+               <div class="circle mailcircle">
+               <a href="mailto:adriaanglibert@hotmail.com?Subject=Website:%20" target="_top" class="mail social"><i class="fa fa-envelope" aria-hidden="true"></i></a>
        </div>
        </div>
        
 
         
     
+
     </main>
+        </div>
     <!-- /.container -->
 
 
@@ -50,6 +63,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="js/animation.js"></script>
 </body>
 
 </html>

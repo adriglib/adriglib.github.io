@@ -15,6 +15,7 @@ body {
     margin-top: -100px; 
     margin-left: -40%;
     display: block;
+    transition:all 0.3s ease;
 }
 
 h1, h2 {
@@ -42,9 +43,131 @@ h2 {
 .social {
     color: white;
     font-size: 1.5em;
-    margin: 10px;
+    margin: 0 auto;
+    text-align: center;
+
+    
 }
 
-.social:hover {
-    transform: scale(2, 3);
+.social:hover{
+    color: #3b7ec1;
+    transition:all 1s ease;
+    
+}
+
+
+
+.circle {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    
+    width: 50px;
+    height: 50px;
+    
+    transform: scale(0.8);
+    
+    border-radius: 50%;
+}
+
+.circle:hover {
+    background-color: white;
+    transform: scale(1);
+    transition:all 0.5s ease-out;
+
+}
+
+.fbcolor {
+    color: #3b5998;
+    transition:all 0.3s ease;
+}
+
+.twittercolor {
+     color: #55acee;
+    transition:all 0.3s ease;
+}
+
+
+.mailcolor {
+    color: #dd4b39;
+    transition:all 0.3s ease;
+}
+
+.grow {
+
+    
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    
+    
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
