@@ -1,11 +1,12 @@
 body {
     background-color: #79bfef;
+    width: 100%;
 }
 
 .name {
     width: 80%; 
     height:200px; 
-    position: absolute;
+    position: fixed;
     
     text-align: center;
     
