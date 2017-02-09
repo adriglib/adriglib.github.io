@@ -1,5 +1,6 @@
 body {
-    background-color: #336699;
+    background-color: #79bfef;
+    overflow-x: hidden;
 }
 
 .name {
@@ -38,6 +39,7 @@ h2 {
     position: relative;
     top: 20%;
     display: block;
+
 }
 
 .social {

@@ -26,4 +26,4 @@ function getAttention(){
 
 setInterval(function() {
   getAttention();
-}, 5000);
+}, 8000);
