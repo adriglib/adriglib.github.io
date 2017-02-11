@@ -11,17 +11,19 @@
 }
 
 .sun {
-    background-color: #ffc033;
+    background-color: rgba(255, 192, 51, 0.9);
     width: 80px;
     height: 80px;
     
     position: absolute;
-    top: 10%;
-    right: 10%;
+    bottom: 0%;
+    left: calc(50% - 40px);
+    
+    
     
     border-radius: 50%;
     
-    -webkit-animation-delay: 1.5s;
+    -webkit-animation-delay: 2s;
     
     
 }
